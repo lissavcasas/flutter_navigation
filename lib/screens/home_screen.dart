@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class HomecSreen extends StatelessWidget {
-  /* const HomecSreem({Key key}) : super(key: key); */
 
   @override
   Widget build(BuildContext context) {
@@ -11,8 +10,14 @@ class HomecSreen extends StatelessWidget {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Homepage Vew'),
+            Text(
+              'Homepage View',
+              style: TextStyle(
+                fontSize: 22,
+              ),
+            ),
             RaisedButton(
               child: Text('Go to details'),
               onPressed: null,
